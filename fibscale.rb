@@ -122,7 +122,7 @@ helpers do
   end
 
   def ordinalize(number)
-    return "#{number}th" if number >= 11 && number <= 13
+    return "#{number}th" if number.between?(11, 13)
 
     case number % 10
     when 1

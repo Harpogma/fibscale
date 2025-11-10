@@ -20,7 +20,7 @@ end
 
 group :production do
   # Ruby web server (https://puma.io)
-  gem 'puma', '~> 6.0'
+  gem 'puma', '~> 7.0'
 end
 
 group :test do

@@ -1,6 +1,5 @@
 # https://docs.rubocop.org/rubocop/configuration.html
-require:
-  - rubocop-rspec
+plugins: rubocop-rspec
 
 AllCops:
   NewCops: enable
