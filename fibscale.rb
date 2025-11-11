@@ -17,6 +17,7 @@ set :delay, Float(ENV.fetch('FIBSCALE_DELAY', '0'))
 set :max_number, Integer(ENV.fetch('FIBSCALE_MAX', '10000'))
 set :max_recursive_number, Integer(ENV.fetch('FIBSCALE_RECURSIVE_MAX', '40'))
 
+set :environment, :production
 set :bind, ENV.fetch('FIBSCALE_HOST', '0.0.0.0')
 set :port, Integer(ENV.fetch('FIBSCALE_PORT', '3000'))
 
